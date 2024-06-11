@@ -20,9 +20,15 @@ code {
 	min-width: 270px; 
 }
 
-#character , #front-accessory, #hat, #face , #background 
+#character , #frontaccessory, #hat, #face , #background 
 {
 	position: absolute;
+}
+
+#download 
+{
+	position: relative;
+	top: 280px;
 }
 
 .d-flex 
