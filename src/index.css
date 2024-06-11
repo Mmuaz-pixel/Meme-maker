@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: linear-gradient(to top, rgb(186, 248, 175), rgb(148, 246, 131)) ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#parent 
+{
+	position: relative;
+	min-width: 270px; 
+}
+
+#character , #front-accessory, #hat, #face , #background 
+{
+	position: absolute;
+}
+
+.d-flex 
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#selectionLayers 
+{
+	display: relative;
 }
