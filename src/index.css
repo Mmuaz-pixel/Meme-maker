@@ -9,6 +9,16 @@ body {
   background: linear-gradient(to top, rgb(186, 248, 175), rgb(148, 246, 131)) ;
 }
 
+.scroller 
+{
+	transition: transform 0.2s ease-in-out;
+}
+
+.scroller:hover 
+{
+	transform: scale(1.3);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -16,19 +26,40 @@ code {
 
 #parent 
 {
+	box-shadow: -1px 1px 14px 3px red;
+	border-radius: 10px;
+	border: 2px solid red;
 	position: relative;
-	min-width: 270px; 
+	width: 350px; 
+	height: 350px;
 }
 
 #character , #frontaccessory, #hat, #face , #background 
 {
+	border-radius: 10px;
+	width: 350px;
 	position: absolute;
 }
 
-#download 
+.btn
 {
+	border: 2px solid rgb(32, 32, 32);
+	font-weight: bold;
+	padding: 10px 20px;
+	width: 100%;
+	margin: 15px 10px;
+	font-size: 14px;
 	position: relative;
-	top: 280px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+	background-color: #f7f5b2;
+	border-radius: 10px;
+	box-shadow: -1px 1px 8px 1px rgb(55, 55, 55)
+}
+
+.btn:hover 
+{
+	transform: scale(1.05);
 }
 
 .d-flex 
@@ -40,4 +71,13 @@ code {
 #selectionLayers 
 {
 	display: relative;
+}
+
+.spec 
+{
+	font-size: 18px;
+    text-transform: capitalize;
+    color: #363636;
+    text-shadow: 1px 1px 1px #9e9e9e;
+    width: 150px;
 }
