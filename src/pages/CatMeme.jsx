@@ -8,9 +8,9 @@ const CatMeme = () => {
 	const [selected, setSelected] = useState({
 		background: 'image1.png',
 		character: 'image1.png',
-		face: '',
-		frontaccessory: '',
-		hat: ''
+		face: 'default.png',
+		frontaccessory: 'default.png',
+		hat: 'default.png'
 	})
 
 	const [images, setImages] = useState(

@@ -56,9 +56,9 @@ const OutputImage = (props) => {
 		props.setSelected({
 			background: 'image1.png',
 			character: 'image1.png',
-			face: '',
-			frontaccessory: '',
-			hat: ''
+			face: 'default.png',
+			frontaccessory: 'default.png',
+			hat: 'default.png'
 		})
 	}
 
